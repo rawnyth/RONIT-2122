@@ -1,0 +1,25 @@
+Amazon Web Services (AWS) has a global infrastructure that spans multiple regions around the world. AWS regions are geographic areas where AWS has data centers, and each region is made up of multiple availability zones. Each availability zone consists of one or more data centers, providing redundancy and resiliency to enhance the reliability of AWS services. India has 6 centres, 3 in Mumbai and 3 in Hyderabad.
+
+Here are key components of the AWS global infrastructure:
+
+AWS Regions:
+
+An AWS region is a geographical area where AWS has multiple data centers. Each region is designed to be isolated from other regions to provide fault tolerance and stability.
+Availability Zones:
+
+Each AWS region is divided into multiple availability zones (AZs), which are essentially separate data centers with their own power, cooling, and networking. AZs within a region are connected with high-bandwidth, low-latency networking.
+Edge Locations:
+
+AWS has a network of edge locations, often referred to as Content Delivery Network (CDN) points of presence, that are spread around the globe. These edge locations are used by the Amazon CloudFront CDN service to cache and deliver content to end-users with low latency.
+Local Zones:
+
+AWS Local Zones are extension locations connected to an AWS region and provide a way to run low-latency applications closer to specific geographic areas. Local Zones are designed to deliver single-digit millisecond latency to users in those areas.
+Wavelength Zones:
+
+AWS Wavelength brings AWS services to the edge of the 5G network. It allows developers to build applications that require ultra-low latency by deploying them in Wavelength Zones, which are located in telecommunication providers' data centers.
+AWS GovCloud (US):
+
+AWS GovCloud is a region designed to host sensitive workloads that require compliance with U.S. government regulations, including the International Traffic in Arms Regulations (ITAR) and Federal Risk and Authorization Management Program (FedRAMP).
+The global infrastructure allows AWS customers to deploy applications and services in multiple geographic locations, providing benefits such as redundancy, fault tolerance, and low-latency access for end-users. When users deploy resources in different regions or availability zones, they enhance the resiliency of their applications and improve the overall user experience.
+
+It's important to note that AWS continues to expand its infrastructure and regularly introduces new regions and services. Therefore, for the most up-to-date information on AWS global infrastructure, it is recommended to check the official AWS Regional Services List on the AWS website or use the AWS Management Console.
