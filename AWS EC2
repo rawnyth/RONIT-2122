@@ -1,0 +1,13 @@
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service provided by Amazon Web Services (AWS) that allows users to rent virtual servers in the cloud. These virtual servers, known as instances, can be used to run applications, host websites, and perform various computing tasks.
+
+EC2 is a fundamental building block of AWS, and it is widely used for various purposes, including hosting websites, running applications, and performing data processing tasks in the cloud.
+
+To use EC2, you typically follow these steps :-
+
+1 Launch an Instance: Choose an Amazon Machine Image (AMI), select an instance type, configure instance details, add storage, configure security groups, and review your settings before launching the instance.
+
+2 Connect to the Instance: Once the instance is running, you can connect to it using SSH (for Linux instances) or Remote Desktop (for Windows instances).
+
+3 Configure the Instance: Install and configure the necessary software and applications on the instance based on your requirements.
+
+4 Terminate the Instance: When you no longer need the instance, you can terminate it to stop incurring charges.
